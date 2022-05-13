@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Sphinx And Read The Docs Sample's documentation!
+Sphinx And ReadTheDocs Sample documentation!
 ===========================================================
 
 Another simple header
@@ -13,6 +13,8 @@ Here is some text explaning some very complicated stuff.::
 
             print 'hello
             >> hello
+
+Some another text
 
 Guide
 ^^^^^
