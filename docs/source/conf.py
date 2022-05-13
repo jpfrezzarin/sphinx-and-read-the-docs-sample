@@ -14,10 +14,13 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+# Import Read the Docs theme
+import sphinx_rtd_theme
+
 
 # -- Project information -----------------------------------------------------
 
-project = 'Sphinx And Read The Docs Sample'
+project = 'Sphinx & Read the Docs Sample'
 copyright = '2022, jpfrezzain'
 author = 'jpfrezzain'
 
@@ -31,6 +34,7 @@ release = '0.0.2'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx_rtd_theme' # Using Read the Docs theme
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -47,7 +51,8 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+#html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme' # Settings Read the Docs theme
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
