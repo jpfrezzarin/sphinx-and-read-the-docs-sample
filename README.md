@@ -2,6 +2,8 @@
 
 A sample of a project with sphinx for documentation, integrated with Read the Docs
 
+[Click here](https://sphinx-and-read-the-docs-sample.readthedocs.io/en/latest/) to see the documentation of this repository in the Read the Docs site. 
+
 ## Stack
 
 - Python (3.10.4)
